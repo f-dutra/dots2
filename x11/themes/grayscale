@@ -1,0 +1,57 @@
+! special
+*.foreground:   #b9b9b9
+*.background:   #101010
+*.cursorColor:  #b9b9b9
+*.alpha: 0.9
+
+! black
+*.color0:       #101010
+*.color8:       #525252
+
+! red
+*.color1:       #7c7c7c
+*.color9:       #7c7c7c
+
+! green
+*.color2:       #8e8e8e
+*.color10:      #8e8e8e
+
+! yellow
+*.color3:       #a0a0a0
+*.color11:      #a0a0a0
+
+! blue
+*.color4:       #686868
+*.color12:      #686868
+
+! magenta
+*.color5:       #747474
+*.color13:      #747474
+
+! cyan
+*.color6:       #868686
+*.color14:      #868686
+
+! white
+*.color7:       #b9b9b9
+*.color15:      #f7f7f7
+
+*.normbgcolor:  #f1f1f1
+*.normbordercolor:  #f1f1f1
+*.normfgcolor:  #101010
+*.tagnormbgcolor:  #f1f1f1
+*.tagnormfgcolor:  #101010
+*.infonormbgcolor:  #f1f1f1
+*.infonormfgcolor:  #101010
+*.statusbgcolor:  #f1f1f1
+*.statusfgcolor:  #101010
+*.selbgcolor:  #f1f1f1
+*.selbordercolor:  #f1f1f1
+*.selfgcolor:  #101010
+*.tagselbgcolor:  #f1f1f1
+*.tagselfgcolor:  #101010
+*.infoselbgcolor:  #f1f1f1
+*.infoselfgcolor:  #101010
+*.colborderbar:  #f1f1f1
+
+*.topbar: 0

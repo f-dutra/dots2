@@ -1,0 +1,23 @@
+/* ! NORDIC */
+*.foreground: #eceff4
+*.background: #101010
+*.color0:     #101010
+*.color8:     #434c5e
+*.color1:     #b74e58
+*.color9:     #bf6164
+*.color2:     #97b67c
+*.color10:    #a3be8c
+*.color3:     #e7c173
+*.color11:    #ebcb8b
+*.color4:     #5e81ac
+*.color12:    #88c0d0
+*.color5:     #a97ea1
+*.color13:    #b48ead
+*.color6:     #80b3b2
+*.color14:    #8fbcbb
+*.color7:     #c0c8d8
+*.color15:    #e5e9f0
+
+*.color256:   #101010
+*.color257:   #eceff4
+*.cursorcolor:#eceff4

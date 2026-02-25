@@ -1,0 +1,54 @@
+*.alpha: 	      0.9
+*.padding:	 3
+*.borderpx:	 1
+*.hidevacant:	 0
+*.ulinepad:	 3
+*.ulinestroke:  0
+*.tagset:		 3
+
+*.color0:		  #23372B
+*.color1:		  #FF5345
+*.color2:		  #549E6A
+*.color3:		  #459451
+*.color4:		  #509475
+*.color5:		  #D2689C
+*.color6:		  #2DD5B7
+*.color7:		  #9EEBB3
+*.color8:		  #53685B
+*.color9: 	  #DB9F9C
+*.color10: 	  #549e6a
+*.color11: 	  #E5C736
+*.color12: 	  #ACD4CF
+*.color13: 	  #D2689C
+*.color14: 	  #8CD3CB
+*.color15: 	  #F6F5DD
+*.color256: 	  #23372B
+*.color257: 	  #F6F5DD
+*.foreground: 	  #e6d8ba
+*.background: 	  #010c08
+
+dwm.normfg: 	  #e6d8ba
+dwm.selfg: 	  #e6d8ba
+dwm.normbg: 	  #010c08
+dwm.selbg: 	  #010c08
+dwm.tagnormfg:   #97ac9f
+dwm.tagselfg: 	  #e6d8ba
+dwm.tagoccfg: 	  #e6d8ba
+dwm.tagnormbg:   #010c08
+dwm.tagselbg: 	  #010c08
+dwm.tagoccbg: 	  #010c08
+dwm.statusfg:	  #e6d8ba
+dwm.statusbg:	  #010c08
+dwm.normborder:  #53685B
+dwm.selborder:	  #9EEBB3
+
+dmenu.normfg: 	  #b0b386
+dmenu.selfg: 	  #e6d8ba
+dmenu.normbg: 	  #010c08
+dmenu.selbg: 	  #091410
+
+herbe.background_color: #010c08
+herbe.border_color: #53675B
+herbe.font_color: #fbfac7
+herbe.border_size: 1
+herbe.padding: 15
