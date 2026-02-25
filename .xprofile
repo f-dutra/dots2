@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# This file runs when a DM logs you into a graphical session.
+# If you use startx/xinit like a Chad, this file will also be sourced.
+
+xrandr --dpi 96		# Set DPI. User may want to use a larger number for larger screens.
+#setxkbmap -layout br -variant abnt2 -model pc105 &
+setbg &			# set the background with the `setbg` script
+xrdb ${XDG_CONFIG_HOME:-$HOME/files/conf}/x11/xresources & xrdbpid=$!	# Uncomment to use Xresources colors/settings on startup
+
+#source /etc/profile &
+
+autostart="pipewire mpd picom"
+
+for program in $autostart; do
+	pidof -sx "$program" || "$program" &
+done >/dev/null 2>&1
+
+#'sxhkd -c $HOME/.config/sxhkd/sxhkdrc &
+
+# Ensure that xrdb has finished running before moving on to start the WM/DE.
+[ -n "$xrdbpid" ] && wait "$xrdbpid"
